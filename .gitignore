@@ -1,0 +1,7 @@
+*~
+*.o
+*.d
+demo
+logs/*
+!logs/README
+project.geany
