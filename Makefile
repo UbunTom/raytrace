@@ -1,6 +1,6 @@
 CPPFLAGS=-DGLM_FORCE_RADIANS -I. --std=c++11
 OUTPUT_OPTION=-MMD -MP -o $@
-LDLIBS=-lglfw3 -lGLEW -lGL -lX11 -lXxf86vm -lpthread -lXrandr -lXi -lXinerama -lXcursor
+LDLIBS=-lglfw -lGLEW -lGL
  
 SOURCES=$(shell find . -name "*.cpp")
 CSOURCES=$(shell find . -name "*.c")
